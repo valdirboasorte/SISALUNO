@@ -1,0 +1,74 @@
+form{
+    background-color: #94C973   ;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(71, 71, 71);
+
+    display: grid;
+    gap: 5px;
+}
+
+img[alt="tartaruga"]{
+    position: absolute;
+    width: 200px;
+    top: 250px;
+    left: 150px;
+}
+
+img[alt="michelangelo"]{
+    position: absolute;
+    width: 300px;
+    top: 120px;
+    right: 100px;
+}
+
+img[alt="chapecoence"]{
+    position: absolute;
+    width: 200px;
+    top: 250px;
+    left: 150px;
+}
+
+img[alt="hulk"]{
+    position: absolute;
+    width: 300px;
+    top: 120px;
+    right: 100px;
+}
+
+input{
+    font-size: 1.1em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #2F5233;
+    background-color: #B1D8B7;
+}
+
+select{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #2F5233;
+    background-color: #B1D8B7;
+}
+
+div button{
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #2F5233;
+    background-color: #B1D8B7;
+}
+
+button a{
+    color: black;
+}
+
+input[type="submit"]{
+    width: 100%;
+}
+
+input[type="radio"]{
+    width: 15px;
+    height: 15px;
+}
